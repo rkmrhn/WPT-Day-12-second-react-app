@@ -1,9 +1,14 @@
 import React from "react";
 function App() {
-  return<h1>hello</h1>;
-}
-function sum(){
-  return <h1>100</h1>;
+  // if there are more than one tag in return statement
+  // there must be parent tag(if may be an empty tag<></>)
+  return (
+    <>
+      <h1>hello</h1>
+      <h1>world</h1>
+      <h1>welocme</h1>
+    </>
+  );
 }
 
 export default App;

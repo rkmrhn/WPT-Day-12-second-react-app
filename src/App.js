@@ -1,13 +1,14 @@
 import React from "react";
+// import "./App.css";
+
 function App() {
-  // if there are more than one tag in return statement
-  // there must be parent tag(if may be an empty tag<></>)
   return (
-    <>
-      <h1>hello</h1>
-      <h1>world</h1>
-      <h1>welocme</h1>
-    </>
+    <h1>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+      dolores, vel exercitationem consequatur aut ad assumenda totam numquam
+      nesciunt repellat incidunt veniam sit blanditiis! Officiis deleniti
+      dignissimos illo perferendis porro.
+    </h1>
   );
 }
 

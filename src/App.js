@@ -1,25 +1,30 @@
 import React from "react";
-// import "./App.css";
+import "./App.css";
 
 function App() {
-  let id = "id1";
-  let str = "hello world";
-  let pi = 3.14;
-
   return (
     <>
-      <h1 id="id1">Hello World</h1>
-      <h1 id={id}>{str}</h1>
+      <h1 className="bg-primary p-3">my project</h1>
+      <h1 className=" alert alert-primary">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore
+        architecto odio voluptas totam! Omnis atque facilis recusandae deserunt
+        consectetur, odit expedita, consequuntur, enim tempore et error iusto
+        laboriosam dolore. Nobis.
+      </h1>
+      <h1 className=" alert alert-primary">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore
+        architecto odio voluptas totam! Omnis atque facilis recusandae deserunt
+        consectetur, odit expedita, consequuntur, enim tempore et error iusto
+        laboriosam dolore. Nobis.
+      </h1>
+      <h1 className=" alert alert-primary">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore
+        architecto odio voluptas totam! Omnis atque facilis recusandae deserunt
+        consectetur, odit expedita, consequuntur, enim tempore et error iusto
+        laboriosam dolore. Nobis.
+      </h1>
 
-      {/** USE CASES*/}
-      <h1 id="id1">Hello World</h1>
-      <h1 id={"id1"}>Hello World</h1>
-      <h1 id={`id1`}>Hello World</h1>
-      <h1 id={id}>Hello World</h1>
-
-      <h1>PI {pi} !!</h1>
     </>
   );
 }
-
 export default App;
